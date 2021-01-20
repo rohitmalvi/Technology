@@ -1,0 +1,37 @@
+ Each workspace shows as a tile that lists the apps you've added to this workspace.
+ The boxes for each workspace. Each workspace has its own tile.
+ When you see Workspaces with a capital W, we're referring to the Workspaces initiative
+ When you see workspaces with a lowercase w, we're talking about the workspace container
+
+The architecture of Workspaces consists of 4 levels:
+
+Environment Level: The Company Environment Level is the highest level in the architecture. This level houses your workspaces and shared elements. These shared elements are available to all workspaces in your company environment.
+Workspace Level: At the Workspace Level, you can access the applications that are part of that workspace. You can also share app elements exclusively at this level. Shared elements at the Workspace Level are only available to the apps in that workspace.
+Application Level: The Application Level is where you access the app elements in your application. You also see any connected elements. Connected elements are shared elements used in the application.
+Application Element Level: App elements aremodules, workflows, and reference data. The App Element Level is when you're editing amodule, workflow, or data collection.
+
+Designer User Administration is where you'll add, edit, and delete Designer users
+
+
+Note: If you only want your end-user to access your Express View application, you'll add them as an Express user. To add an Express user, go to User Administration under the Roles and Permissions section.
+
+The Designer Role Administration page lets you create Designer roles and set their permissions
+
+->The UAT environment is where both Unqork and the client can view the latest build.
+
+
+A Property ID is the unique field ID used by Unqork to identify, track, and link components in your module
+
+
+
+
+
+
+
+
+
+
+
+
+
+

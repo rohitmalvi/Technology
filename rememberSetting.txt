@@ -1,0 +1,9 @@
+Windows + I      ------        Open settings.
+Windows + U      ------        Open settings.
+Windows + Ctrl + D ---------   Add a virtual desktop.
+Windows + Tab  ------   Open Task view.
+f11 ---- maximize
+Windows + Plus (+)-------  Open Magnifier.
+Windows + comma (,),(;)-------  Temporarily peek at the desktop
+Windows + R-------- Open the Run dialog box.
+Windows + E-------  Open File Explorer.

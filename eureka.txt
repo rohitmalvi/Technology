@@ -1,0 +1,90 @@
+
+1. Spring cloud Eureka
+2. Spring cloud Gateway
+3. Spring cloud hystrix
+
+server:
+  port: 9700
+
+eureka:
+ client:
+   service-url:
+     defaultZone: http://localhost:8700/eureka/
+
+application:
+   name: student-service
+
+
+
+
+
+
+
+
+
+
+
+SpringBootProject
+
+
+
+
+
+
+
+
+server:
+  port: 8888
+
+spring:
+   application:
+      name: cloud-config-server
+   cloud:
+     config:
+        server:
+          git:
+            uri:
+             ignore-local-ssh-settings: true
+             strict-host-key-checking: false
+             search-paths:
+             - configuration/{application}/
+             - configuration/
+             private-key: I
+
+
+
+eureka:
+   client:
+      registry-fetch-interval-seconds: 5
+      service-url:
+         defaultZone: http://localhost:8700/eureka/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

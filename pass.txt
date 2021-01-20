@@ -1,0 +1,18 @@
+A stream represents a sequence of elements and supports different kind of 
+operations to perform computations upon those elements:
+
+
+NewU$er@Pers1stent
+
+
+jagannath high school
+
+bittu
+rohit
+pet- rohit
+brand -honda
+avtar
+america
+volleyball
+
+pass:7828385295@RoRo

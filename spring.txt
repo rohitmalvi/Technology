@@ -1,0 +1,74 @@
+ List out the different scopes of Bean.
+
+(i) Singleton: throughout the spring context only one instance is created.
+
+(ii) Prototype: a new bean is created whenever requested.
+
+(iii) Request: Every HTTP Request creates a bean.
+
+(iv) Session: A bean for every HTTP Session.
+
+
+ List out the types of Dependency Injection.
+
+The types of Dependency Injection-
+
+(i) Setter Injection and (ii) Constructor Injection.
+
+
+List out the ways Autowiring is done.
+
+(i) byType
+(ii) byName
+(iii) Constructor (same as byType, but through constructor)
+
+
+22. List out all the concepts that are available in the MVC Architecture?
+
+(i)  The browser sends a request to DispatcherServlet
+
+(ii) DispatcherServlet knows the HanderMapping and can find the appropriate controllers
+
+(iii) Controllers execute the request and put the data in the model and return back the view name to the DispatcherServlet.
+
+(iv) DispatcherServlet uses the view name and ViewResolver to map to the view.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

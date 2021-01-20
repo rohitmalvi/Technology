@@ -1,0 +1,45 @@
+Alt + Tab
+
+Switch between open apps.
+---
+F2
+
+Rename the selected item.
+---
+F3
+
+Search for a file or folder in File Explorer.
+-----
+F4
+
+Display the address bar list in File Explorer.
+-------
+F6
+
+Cycle through screen elements in a window or on the desktop.
+----------------
+Ctrl + D (or Delete)
+
+Delete the selected item and move it to the Recycle Bin.
+-----
+Ctrl + Esc
+
+Open Start.
+----------
+Ctrl + Shift + Esc
+
+Open Task Manager.
+-----------
+Shift + F10
+
+Display the shortcut menu for the selected item.
+--------------
+Shift + Delete
+
+Delete the selected item without moving it to the Recycle Bin first.
+========
+Windows logo key  + E
+
+Open File Explorer.
+======
+Maximize Window: F11 or Windows logo key  + Up Arrow

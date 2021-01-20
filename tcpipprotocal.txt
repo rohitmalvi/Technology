@@ -1,0 +1,74 @@
+osi model
+
+ physical layer contains information in the form of bits.
+----
+ Physical layer also defines the way in which the data flows between the two connected devices.
+---------
+The functions of the physical layer are :
+
+Bit synchronization: The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at bit level.
+Bit rate control: The Physical layer also defines the transmission rate i.e. the number of bits sent per second.
+Physical topologies: Physical layer specifies the way in which the different, devices/nodes are arranged in a network i.e. bus, star or mesh topolgy.
+Transmission mode: Physical layer also defines the way in which the data flows between the two connected devices. The various transmission modes possible are: Simplex, half-duplex and full-duplex.
+----
+Simplex: The keyboard sends the command to the monitor. The monitor cannot reply to the keyboard.
+Half duplex: Using a walkie-talkie, both speakers can communicate, but they have to take turns.
+Full duplex: Using a telephone, both speakers can communicate at the same time.
+The full duplex transmission mode offers the best performance among the three, on account of the fact that it maximises the amount of bandwidth available. The various transmission modes possible are: Simplex, half-duplex and full-duplex
+---------------
+The physical layer and the data link layer of the OSI model correspond to the link layer of the TCP/IP model
+
+The network layers and the transport layers are the same in both the models
+
+The session layer, the presentation layer and the application layer of the OSI model together form the application layer of the TCP/IP model.
+
+--------------------------------------
+2. Data Link Layer (DLL) (Layer 2) :
+
+ The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer. 
+
+Data Link Layer is divided into two sub layers :
+
+Logical Link Control (LLC)
+Media Access Control (MAC)
+
+----------------------------------
+
+3. Network Layer (Layer 3) :
+Network layer works for the transmission of data from one host to the other located in different networks
+
+---------------------------------------
+4. Transport Layer (Layer 4) :
+It is responsible for the End to End Delivery of the complete message. The transport layer also provides the acknowledgement of the successful data 
+transmission and re-transmits the data if an error is found.
+
+The sender need to know the port number associated with the receiver’s application.
+The functions of the transport layer are 
+
+Segmentation and Reassembly: This layer accepts the message from the (session) layer , breaks the message into smaller unit
+
+Service Point Addressing: Thus by specifying this address, transport layer makes sure that the message is delivered to the correct process
+
+5. Session Layer (Layer 5) :
+
+6. Presentation Layer (Layer 6) :The data from the application layer is extracted here and manipulated as per the required format to transmit over the network
+
+7. Application Layer (Layer 7) :These applications produce the data, which has to be transferred over the network.
+
+
+193.176.84.228
+14.99.136.206
+
+
+
+
+
+
+
+
+
+
+
+
+
+

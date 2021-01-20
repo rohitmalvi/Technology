@@ -1,0 +1,364 @@
+SELECT, INSERT, UPDATE, DELETE, ALTER, DROP
+
+
+
+SELECT: it extracts data from a database.
+UPDATE: it updates data in database.
+DELETE: it deletes data from database.
+CREATE TABLE: it creates a new table.
+ALTER TABLE: it is used to modify the table.
+DROP TABLE: it deletes a table.
+CREATE DATABASE: it creates a new database.
+ALTER DATABASE: It is used to modify a database.
+INSERT INTO: it inserts new data into a database.
+CREATE INDEX: it is used to create an index (search key).
+DROP INDEX: it deletes an index.
+
+Data types mainly classified into three categories for every database.
+
+String Data types
+Numeric Data types
+Date and time Data types
+
+Generally there are three types of operators in SQL:
+
+SQL Arithmetic Operators
+SQL Comparison Operators
+SQL Logical Operators
+
+
+Operator	Description
+ALL	this is used to compare a value to all values in another value set.
+AND	this operator allows the existence of multiple conditions in an SQL statement.
+ANY	this operator is used to compare the value in list according to the condition.
+BETWEEN	this operator is used to search for values, that are within a set of values
+IN	this operator is used to compare a value to that specified list value
+NOT	the NOT operator reverse the meaning of any logical operator
+OR	this operator is used to combine multiple conditions in SQL statements
+EXISTS	the EXISTS operator is used to search for the presence of a row in a specified table
+LIKE	this operator is used to compare a value to similar values using wildcard operator
+
+CREATE TABLE Employee(  
+EmployeeID NOT NULL,  
+FirstName varchar(255) NOT NULL,  
+LastName varchar(255),  
+City varchar(255),  
+PRIMARY KEY (EmployeeID)  
+); 
+
+
+
+Difference between DELETE and TRUNCATE statements
+There is a slight difference b/w delete and truncate statement.
+ The DELETE statement only deletes the rows from the table based on the condition defined by WHERE clause or delete all 
+the rows from the table when condition is not specified.
+But it does not free the space containing by the table.
+The TRUNCATE statement: it is used to delete all the rows from the table and free the containing space.
+
+ALTER TABLE STUDENTS  
+RENAME TO ARTISTS;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

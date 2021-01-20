@@ -1,0 +1,59 @@
+cd: change directory
+cd desktop ->
+changling a directory
+cd .. ->
+back directory 
+cd desktop\video ->(within same directory)
+cnanging a path by using (\) and (/) this one also working
+cd ../.. ->
+going two time back
+Tab ->
+cd d(Desktop) using first ward and use tab it is giving full name
+Dir->
+by using dir you can see all the directory in that folder
+dir /a -> 
+giving all the hidden directory
+cls ->
+clear screen
+dir *.png ->
+give all png file
+ipconfig /?
+mkdir Rohit->
+creating a new directory folder Rohit
+rmdir Rohit->
+removing a directory folder Rohit
+*if inside a folder any file is there it saing "The directory is not empty."
+for deleting file inside a folder you have to use 
+rmdir /s rohit->
+it asking "rohit, Are you sure(y/n)? 
+type y
+color sdfk->
+give you all the colors you can change
+wmic logicaldisk get name:
+to get all the directory or dirve 
+echo someText ->
+adding some text into your file
+echo my name is rohit > rohit.txt ->
+echo is using to write somethign into your text file rohit.txt
+rohit.txt txt file is created in that my name is rohit is there
+*file is hidden 
+you can see the hidden file using (type rohit.txt)
+>> the difference between > or >> you can see mesage 
+dir > rohit.txt ->
+creating a new text file
+del rohit.txt->
+deleting a file 
+copy some.txt myfolder->
+copying a some.txt text file into myfolder
+xcopy text1 text2->
+text1 all the file are copying a text2 folder
+xcopy text1 text2 /s->
+copying a folder also
+
+
+
+
+
+
+
+

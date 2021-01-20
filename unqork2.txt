@@ -1,0 +1,137 @@
+Data Types
+String: Text Field, Text Area, Date Input, Radio Buttons, and Phone Number components
+
+Number:
+Tip: The Number component has a Don't Allow Decimals setting. If you only want to accept integer values, you can switch the Don't Allow Decimals toggle to ON.
+number: 10
+textfieldNumber: "10"
+
+Boolean:  Boolean value, checked stores as true and unchecked stores as false.
+singleCheckbox: true
+textFieldTrue: "true"
+
+Data Structures:
+3 basic data structures in the Unqork Designer Platform:
+
+Key/value pairs:- Components that store data using key/value pairs include: Text Field, Text Area, Hidden, Phone Number, Radio Buttons, and more.
+
+Objects:- object acts as a container for characteristics about that entity
+Note: JSON uses curly braces ({...}) to denote objects.
+intiPhone:
+     countryCode: "US"
+     internationalNumber: "+12015556743"
+     number: "(201) 555-6743"
+Notice that the object intlPhone actually contains 3 key/value pairs. intlPhone is a single, self-contained entity. It's simply the number entered in Express View. But, the component actually stores 3 related characteristics of that number:
+
+
+Arrays:- Arrays can contain values, objects, and even other arrays.
+Note: JSON denotes arrays using square brackets ([...]).
+
+JSON denotes arrays using square brackets ([...]).
+
+JSON denotes objects using curly braces ({...}).
+
+Strings always have double quotes.
+
+============================================================
+Introduction to Data & Events Processing
+Unqork has a group of Data & Events Processing components for this very purpose. These components use logic to make your module respond in different ways depending on your end-user's input.
+Data & Event Processing components include:
+
+File
+License Scanner*
+DataMapper*
+Decisions
+Initializer
+Plug-In
+Calculator
+Data Table*
+Checkpoint
+Data Workflow
+Timer
+Plaid*
+File Storage*
+
+Uploaded files become available to view, download, or delete
+
+The DataMapper component commonly uses IF statements. IF statements let you make logical decisions based on an input value.
+ IF statements typically look like this: =IF(Something is True, then do something, otherwise do something else).
+
+
+Note: The DataMapper and Data Workflow components both manipulate data. Generally speaking, the Data Workflow component is the more popular choice. 
+Sometimes, creators use the DataMapper because it offers an Excel-like experience. Choose the component that works best for you.
+
+Decisions Component
+Decisions are logic-type components often used in if/then scenarios. Let's look at an example. If your end-user selects radio button A, then show field B. Or if your end-user types value X, then display pop-up Y
+
+
+ Initializer components watch for end-user interactions before triggering certain operations. 
+
+Plug-In component is how you connect your module to the outside world. 
+
+
+Checkpoint Component
+The Checkpoint component helps you track your end-user's location in your application.
+
+Plaid Component
+Plaid is a service that lets your applications securely connect to bank accounts
+
+File Storage Component
+Retrieve a directory listing. Then, return an array of objects representing items in the remote directory.
+Retrieve a file from a remote SFTP service and return an object with file content.
+Upload data to a remote server.
+
+*When you use Primary Fields and Secondary Fields alone, your application remains static
+ Unqork has a group of Data & Events Processing components for this very purpose. These components use logic to make your module respond in different ways depending on your end-user's input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
